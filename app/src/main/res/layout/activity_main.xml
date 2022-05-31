@@ -9,17 +9,15 @@
     android:background="@color/aaa">
 
     <TextView
+        android:id="@+id/wysDATA"
         android:layout_width="match_parent"
         android:layout_height="85dp"
-        android:id="@+id/wysDATA"
-        android:text="xx-xx-xxxx"
-        android:textSize="50sp"
-
-        android:textColor="@color/aa2"
         android:layout_marginTop="48dp"
+        android:text="xx-xx-xxxx"
+
         android:textAlignment="center"
-
-
+        android:textColor="@color/aa2"
+        android:textSize="50sp"
 
 
         />
@@ -40,11 +38,13 @@
                />
        </LinearLayout>
 
-
-
-
-
-
+    <TextView
+        android:id="@+id/wysTekst"
+        android:layout_width="379dp"
+        android:layout_height="153dp"
+        android:layout_marginRight="100dp"
+        android:text="X-X-XXXX"
+        android:textSize="40sp" />
 
 
 </LinearLayout>
